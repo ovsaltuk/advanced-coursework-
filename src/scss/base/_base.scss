@@ -1,0 +1,18 @@
+body {
+  font-family: $main-font;
+  font-size: 16px;
+}
+
+.container {
+  padding: 0 15px;
+  max-width: 1310px;
+}
+
+a {
+  color: $black;
+  transition: color .3s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    color: $primary;
+  }
+}

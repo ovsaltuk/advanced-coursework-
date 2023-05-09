@@ -1,3 +1,8 @@
-@import './vendor';
-@import './fonts';
+/* Base */
+@import './base/vendor';
+@import './base/resets';
+@import './base/vars';
+@import './base/base';
+/* Blocks */
+@import './blocks/header';
 
