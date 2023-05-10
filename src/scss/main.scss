@@ -10,7 +10,16 @@
 @import './blocks/link-list';
 @import './blocks/nav';
 @import './blocks/search';
-@import './blocks/btn_shape_circle';
 @import './blocks/filter';
 @import './blocks/shopping-cart';
+@import './blocks/hero';
+@import './blocks/btn';
+@import './blocks/btn_primary';
+@import './blocks/btn_shape_circle';
+@import './blocks/btn_transparent';
+@import './blocks/special-offers';
+@import './blocks/title';
 
+.none {
+  display: none;
+}

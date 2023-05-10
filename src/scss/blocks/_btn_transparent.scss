@@ -1,0 +1,9 @@
+.btn_transparent {
+  padding: 19px 35px;
+  color: $primary;
+  font-weight: 600;
+  &:hover {
+    color: $white;
+    background-color: $primary;
+  }
+}

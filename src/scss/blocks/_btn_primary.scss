@@ -1,0 +1,10 @@
+.btn_primary {
+  padding: 18px 46px;
+  font-weight: 700;
+  color: $white;
+  background-color: $primary;
+  &:hover {
+    background-color: $primary-light;
+    border-color: $primary-light;
+  }
+}

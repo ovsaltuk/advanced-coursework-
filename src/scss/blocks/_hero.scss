@@ -1,0 +1,22 @@
+.slide {
+  position: relative;
+  min-height: 400px;
+  & img {
+    position: absolute;
+    z-index: -1;
+    min-height: 100%;
+    min-width: 100%;
+  }
+}
+
+.slide__content {
+  padding: 80px 0;
+}
+
+.slide__title {
+  margin-bottom: 49px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.35;
+  color: $dark-gray;
+}
