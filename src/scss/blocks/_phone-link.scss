@@ -1,0 +1,9 @@
+.phone-link {
+  display: flex;
+  align-items: center;
+  color: $secondary;
+  svg {
+    margin-right: 3px;
+    fill: currentColor;
+  }
+}

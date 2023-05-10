@@ -1,0 +1,16 @@
+.dropdown {
+  display: flex;
+  padding: 15px 0;
+}
+
+.dropdown__title {
+  margin-right: 4px;
+}
+
+.dropdown__current-value {
+  display: flex;
+  color: $primary;
+  & p {
+    margin-right: 5px;
+  }
+}

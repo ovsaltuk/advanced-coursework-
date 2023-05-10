@@ -1,0 +1,11 @@
+.btn_shape_circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  border: 2px solid $primary;
+  border-radius: 16px;
+}

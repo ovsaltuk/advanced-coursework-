@@ -1,0 +1,16 @@
+.search {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  max-width: 761px;
+  padding-right: 32px;
+  padding-left: 34px;
+  background-color: $elements-bg;
+  & svg {
+    height: 20px;
+  }
+  & input {
+    flex-grow: 2;
+    padding: 0 10px;
+  }
+}
