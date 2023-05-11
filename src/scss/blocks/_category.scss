@@ -1,0 +1,46 @@
+.category {
+  padding: 30px;
+  border-radius: 10px;
+  background-color: $elements-bg;
+}
+
+.category__list {
+  display: flex;
+  column-gap: 30px;
+  margin-bottom: 14px;
+  padding-left: 30px;
+}
+
+.category__title {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 24px;
+  color: $black;
+}
+
+.category__img {
+  margin-bottom: 30px;
+  transform: translateX(-30px);
+}
+
+.category__btn {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  color: $primary;
+  & .btn_shape_circle {
+    margin-left: 5px;
+    width: 22px;
+    height: 22px;
+  }
+  & img {
+    height: 7px;
+  }
+}
+
+.category__link {
+  font-size: 14px;
+  color: $dark-gray;
+}
+

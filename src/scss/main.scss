@@ -1,6 +1,7 @@
 /* Base */
 @import './base/vendor';
 @import './base/resets';
+@import './base/fonts';
 @import './base/vars';
 @import './base/base';
 /* Blocks */
@@ -18,9 +19,14 @@
 @import './blocks/btn_shape_circle';
 @import './blocks/btn_transparent';
 @import './blocks/item-card';
+@import './blocks/title-and-pagination';
 @import './blocks/special-offers';
 @import './blocks/title';
 @import './blocks/high-rating';
+@import './blocks/banner';
+@import './blocks/top';
+@import './blocks/category';
+@import './blocks/useful';
 
 .none {
   display: none;

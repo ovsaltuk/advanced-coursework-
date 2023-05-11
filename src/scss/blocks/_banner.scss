@@ -1,0 +1,26 @@
+.banner {
+  display: flex;
+  align-items: center;
+  min-height: 600px;
+  background-image: url("../img/banner/banner-bg.jpg");
+}
+
+.banner__container {
+  width: 100%;
+}
+
+.banner__title {
+  font-family: $secondary-font;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 1.2;
+  color: $gold;
+}
+
+.banner__text {
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.2;
+  color: $white;
+}

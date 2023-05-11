@@ -2,20 +2,7 @@
   padding-top: 70px;
   padding-bottom: 70px;
 }
-.title-and-pagination {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 26px;
-}
 
-.pagination-group {
-  display: flex;
-  & .btn:first-child {
-    margin-right: 13px;
-    transform: rotate(180deg);
-  }
-}
 
 .special-offers__item-card {
   padding: 30px;

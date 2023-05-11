@@ -1,0 +1,14 @@
+.title-and-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+.pagination-group {
+  display: flex;
+  & .btn:first-child {
+    margin-right: 13px;
+    transform: rotate(180deg);
+  }
+}
