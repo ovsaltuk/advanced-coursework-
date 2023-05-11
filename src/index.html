@@ -10,6 +10,7 @@
 <body>
   <header class="header none">
     <div class="container header__container">
+
       <div class="dropdown-link-wrapper">
         <div class="dropdown header__dropdown">
           <div class="dropdown__title">
@@ -19,13 +20,16 @@
         </div>
         <a href="tel:+74958854547" class="phone-link"><img src="./img/header/phone.svg" alt="phone">+7 (495) 885-45-47</a>
       </div>
+
       <ul class="link-list header__link-list">
         <li class="link-list__item"><a href="#">О компании</a></li>
         <li class="link-list__item"><a href="#">Гарантия и возврат</a></li>
         <li class="link-list__item"><a href="#">Корпоративным клиентам</a></li>
         <li class="link-list__item"><a href="#">Дизайн-решение</a></li>
       </ul>
+
       <a href="#" class="logo-link header__logo-link"><img src="./img/logo.png" alt="sit down please"></a>
+
       <nav class="nav header__nav">
         <ul class="nav__list">
           <li class="nav__list-item"><a href="#">Каталог</a></li>
@@ -36,6 +40,7 @@
           <li class="nav__list-item"><a href="#">Контакты</a></li>
         </ul>
       </nav>
+
       <div class="search-filter-group">
         <div class="search header__search">
           <img src="./img/header/lens.svg" alt="lens">
@@ -48,6 +53,7 @@
           <div class="dropdown__current-value dropdown__current-value_filter"><p>Категория</p><img src="./img/header/arrow.svg" alt=""></div>
         </div>
       </div>
+
       <div class="header__buttons-group">
         <button class="btn"><img src="./img/header/user.svg" alt="personal account button"></button>
         <button class="btn shopping-cart">
@@ -55,8 +61,10 @@
           <div class="shopping-cart__count">0</div>
         </button>
       </div>
+
     </div>
   </header>
+
   <main>
     <section class="hero none">
       <div class="slide">
@@ -69,7 +77,8 @@
         </div>
       </div>
     </section>
-    <section class="special-offers">
+
+    <section class="special-offers none">
       <div class="container">
 
         <div class="title-and-pagination">
@@ -92,8 +101,37 @@
               <div class="item-card__content">
                 <h3 class="item-card__title">Кресло велюровое “X-24”</h3>
                 <div class="item-card__price-wrapper">
-                  <p class="item-card__new-price">15 990 руб</p>
-                  <s class="item-card__old-price">24 990 руб</s>
+                  <p class="item-card__price_new">15 990 руб</p>
+                  <s class="item-card__price_old item-card__price">24 990 руб</s>
+                </div>
+                <button class="btn btn_transparent">Купить</button>
+              </div>
+            </div>
+          </div>
+          <div class="item-card special-offers__item-card special-offers__item-card_big">
+            <div class="special-offers__item-card-label">- 10 000</div>
+            <img src="./img/special-offers/offer-img-2.png" alt="item image" class="item-card__img">
+            <div class="item-card__content-wrapper">
+              <div class="item-card__content">
+                <h3 class="item-card__title">Диван тканевый “Z-44”</h3>
+                <div class="item-card__price-wrapper">
+                  <p class="item-card__price_new">22 990 руб</p>
+                  <s class="item-card__price_old item-card__price">32 990 руб</s>
+                </div>
+                <button class="btn btn_transparent">Купить</button>
+              </div>
+              <img src="./img/special-offers/offer-img-2-small.png" alt="small image" class="item-card__img_small">
+            </div>
+          </div>
+          <div class="item-card special-offers__item-card ">
+            <div class="special-offers__item-card-label">- 600</div>
+            <img src="./img/special-offers/offer-img-3.png" alt="item image" class="item-card__img">
+            <div class="item-card__content-wrapper">
+              <div class="item-card__content">
+                <h3 class="item-card__title">Будильник  “Quartz-23”</h3>
+                <div class="item-card__price-wrapper">
+                  <p class="item-card__price_new">1 290 руб</p>
+                  <s class="item-card__price_old item-card__price">1 890 руб</s>
                 </div>
                 <button class="btn btn_transparent">Купить</button>
               </div>
@@ -102,6 +140,131 @@
         </div>
       </div>
     </section>
+
+    <section class="high-rating none">
+      <div class="container">
+        <h2 class="title">Высокий рейтинг</h2>
+        <div class="high-rating__products">
+
+          <div class="item-card high-rating__item-card">
+            <div class="item-card__rating"><img src="./img/high-rating/star.svg" alt="star"> 5,0</div>
+            <img src="./img/high-rating/sofa_1.png" alt="sofa 1" class="item-card__img">
+            <div class="item-card__content-wrapper">
+              <div class="item-card__content">
+                <h3 class="item-card__title">Диван кожаный “R-94”</h3>
+                <div class="item-card__price-wrapper">
+                  <p class="item-card__price">94 990 руб</p>
+                </div>
+                <button class="btn btn_transparent">Купить</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="item-card high-rating__item-card">
+            <div class="item-card__rating"><img src="./img/high-rating/star.svg" alt="star"> 5,0</div>
+            <img src="./img/high-rating/sofa_2.png" alt="sofa 1" class="item-card__img">
+            <div class="item-card__content-wrapper">
+              <div class="item-card__content">
+                <h3 class="item-card__title">Диван кожаный “R-94”</h3>
+                <div class="item-card__price-wrapper">
+                  <p class="item-card__price">94 990 руб</p>
+                </div>
+                <button class="btn btn_transparent">Купить</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="item-card high-rating__item-card">
+            <div class="item-card__rating"><img src="./img/high-rating/star.svg" alt="star"> 5,0</div>
+            <img src="./img/high-rating/sofa_3.png" alt="sofa 1" class="item-card__img">
+            <div class="item-card__content-wrapper">
+              <div class="item-card__content">
+                <h3 class="item-card__title">Диван кожаный “R-94”</h3>
+                <div class="item-card__price-wrapper">
+                  <p class="item-card__price">94 990 руб</p>
+                </div>
+                <button class="btn btn_transparent">Купить</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="item-card high-rating__item-card">
+            <div class="item-card__rating"><img src="./img/high-rating/star.svg" alt="star"> 5,0</div>
+            <img src="./img/high-rating/sofa_4.png" alt="sofa 1" class="item-card__img">
+            <div class="item-card__content-wrapper">
+              <div class="item-card__content">
+                <h3 class="item-card__title">Диван кожаный “R-94”</h3>
+                <div class="item-card__price-wrapper">
+                  <p class="item-card__price">94 990 руб</p>
+                </div>
+                <button class="btn btn_transparent">Купить</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="item-card high-rating__item-card">
+            <div class="item-card__rating"><img src="./img/high-rating/star.svg" alt="star"> 5,0</div>
+            <img src="./img/high-rating/sofa_5.png" alt="sofa 1" class="item-card__img">
+            <div class="item-card__content-wrapper">
+              <div class="item-card__content">
+                <h3 class="item-card__title">Диван кожаный “R-94”</h3>
+                <div class="item-card__price-wrapper">
+                  <p class="item-card__price">94 990 руб</p>
+                </div>
+                <button class="btn btn_transparent">Купить</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="item-card high-rating__item-card">
+            <div class="item-card__rating"><img src="./img/high-rating/star.svg" alt="star"> 5,0</div>
+            <img src="./img/high-rating/sofa_6.png" alt="sofa 1" class="item-card__img">
+            <div class="item-card__content-wrapper">
+              <div class="item-card__content">
+                <h3 class="item-card__title">Диван кожаный “R-94”</h3>
+                <div class="item-card__price-wrapper">
+                  <p class="item-card__price">94 990 руб</p>
+                </div>
+                <button class="btn btn_transparent">Купить</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="item-card high-rating__item-card">
+            <div class="item-card__rating"><img src="./img/high-rating/star.svg" alt="star"> 5,0</div>
+            <img src="./img/high-rating/sofa_7.png" alt="sofa 1" class="item-card__img">
+            <div class="item-card__content-wrapper">
+              <div class="item-card__content">
+                <h3 class="item-card__title">Диван кожаный “R-94”</h3>
+                <div class="item-card__price-wrapper">
+                  <p class="item-card__price">94 990 руб</p>
+                </div>
+                <button class="btn btn_transparent">Купить</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="item-card high-rating__item-card">
+            <div class="item-card__rating"><img src="./img/high-rating/star.svg" alt="star"> 5,0</div>
+            <img src="./img/high-rating/sofa_8.png" alt="sofa 1" class="item-card__img">
+            <div class="item-card__content-wrapper">
+              <div class="item-card__content">
+                <h3 class="item-card__title">Диван кожаный “R-94”</h3>
+                <div class="item-card__price-wrapper">
+                  <p class="item-card__price">94 990 руб</p>
+                </div>
+                <button class="btn btn_transparent">Купить</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <button class="btn btn_primary high-rating__btn">Смотреть больше товаров</button>
+      </div>
+    </section>
   </main>
+
+  <div class="footer"></div>
 </body>
 </html>

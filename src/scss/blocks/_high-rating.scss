@@ -1,0 +1,30 @@
+.high-rating {
+  padding-bottom: 70px;
+  & .title {
+    margin-bottom: 26px;
+  }
+}
+
+.high-rating__item-card {
+  min-height: 420px;
+  max-width: auto;
+  & .item-card__img {
+    margin-bottom: 16px;
+  }
+  & .item-card__content-wrapper {
+    padding: 30px;
+    padding-top: 0;
+  }
+}
+
+.high-rating__products {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(auto-fit, minmax(296px, 1fr));
+  margin-bottom: 32px;
+}
+
+.high-rating__btn {
+  display: block;
+  margin: 0 auto;
+}
