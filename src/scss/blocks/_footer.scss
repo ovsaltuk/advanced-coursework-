@@ -1,0 +1,35 @@
+.footer {
+  padding: 24px 0;
+  background-color: $elements-bg-dark;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__link-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__link-list__item {
+  color: $black;
+  & a {
+    font-size: 14px;
+    color: $dark-gray;
+    &:hover {
+      color: $primary;
+    }
+  }
+}
+
+.footer__logo-link {
+  display: block;
+  margin-bottom: 32px;
+}
+
+.footer__lists-wrapper {
+  display: flex;
+  column-gap: 112px;
+}

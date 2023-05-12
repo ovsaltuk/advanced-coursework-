@@ -1,0 +1,15 @@
+.user-agriment {
+  display: flex;
+  align-items: center;
+}
+
+.user-agriment__label {
+  padding-left: 10px;
+  font-size: 14px;
+  color: $black;
+}
+
+.user-agriment__link {
+  color: $primary;
+  text-decoration: underline;
+}

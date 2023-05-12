@@ -1,0 +1,24 @@
+.cla {
+  padding-bottom: 70px;
+}
+
+.cla__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.cla .title {
+  margin-bottom: 9px;
+}
+
+.cla__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: $gray-shade;
+}
+
+.cla__img {
+  align-self: center;
+}
