@@ -1,4 +1,5 @@
 .dropdown {
+  position: relative;
   display: flex;
 }
 
@@ -14,12 +15,16 @@
   & p {
     margin-right: 5px;
   }
+  & img {
+    transition: transform .3s ease-in-out;
+  }
 }
 
 ul.dropdown__list {
   position: absolute;
   left: 0;
   top: 100%;
+  z-index: 9;
   padding: 16px;
   border: 2px solid $elements-bg;
   font-size: 14px;
@@ -50,4 +55,8 @@ ul.dropdown__list {
 
 .show {
   display: block;
+}
+
+.rotate {
+  transform: rotate(180deg);
 }

@@ -2,27 +2,47 @@ export default class Dropdown {
   constructor(id) {
     this.dropdown = document.getElementById(id);
     this.currentValue = this.dropdown.querySelector('.dropdown__current-value');
+    this.currentValueText = this.currentValue.querySelector('p');
     this.list = this.dropdown.querySelector('ul');
+    this.img = this.dropdown.querySelector('img');
+    this.valueList = this.dropdown.querySelectorAll('li');
 
     this.currentValue.addEventListener('click', e => {
       e.preventDefault();
-      this.show(this.list);     
-      this.addClickListener();
+      if (this.list.classList.contains('show')){
+       this.hideList();
+      } else {
+        this.showList(this.list);
+      }
     });
+
+    for (const value of this.valueList) {
+      value.addEventListener('click', e => {
+        this.hideList();
+        for (const value of this.valueList) {
+          value.classList.remove('selected');
+        }
+        e.target.classList.add('selected');
+        this.currentValueText.textContent = e.target.textContent;
+      });
+    }
   }
 
-  show(element) {
-    element.classList.toggle('show');
+  showList() {
+    this.list.classList.add('show');
+    this.addClickListener();
+    this.img.classList.add('rotate');
   }
 
-  hide(element) {
-    element.classList.remove('show');
+  hideList() {
+    this.list.classList.remove('show');
+    this.removeClickListener();
+    this.img.classList.remove('rotate');
   }
-
   outsideClickListener(event) {
     if (!this.dropdown.contains(event.target)) {
-      this.hide(this.list);
       this.removeClickListener();
+      this.hideList(this.list);
     }
   }
 
