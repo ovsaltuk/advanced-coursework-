@@ -4,6 +4,11 @@
 @import './base/fonts';
 @import './base/vars';
 @import './base/base';
+
+/* library  */ 
+
+@import '../../node_modules/swiper/swiper-bundle.css';
+
 /* Blocks */
 @import './blocks/header';
 @import './blocks/dropdown';
@@ -34,4 +39,6 @@
 @import './blocks/socials';
 @import './blocks/copyright';
 
-
+.text-white {
+  color: $white;
+}
