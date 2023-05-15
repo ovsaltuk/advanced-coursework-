@@ -1,20 +1,26 @@
 .useful {
   padding-bottom: 70px;
 }
-.useful__slider {
-}
+
 .useful__slide {
+  display: flex;
+  flex-direction: column;
+  height: auto;
   max-width: 624px;
   border-radius: 10px;
   background-color: $elements-bg;
 }
-.useful__img {
-}
+
 .useful__slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-grow: 2;
   padding: 30px;
+  min-height: 250px;
 }
 .useful__slide-text {
-  margin-bottom: 38px;
   font-weight: 400;
   font-size: 24px;
   line-height: 33px;
