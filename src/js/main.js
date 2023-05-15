@@ -6,7 +6,7 @@ import Swiper from 'swiper/bundle';
 new Dropdown('region');
 new Dropdown('category');
 
-const swiper = new Swiper('.js-hero__swiper', {
+const heroSwiper = new Swiper('.js-hero__swiper', {
   // Optional parameters
   loop: true,
   autoplay: {
@@ -18,5 +18,14 @@ const swiper = new Swiper('.js-hero__swiper', {
     type: 'bullets',
     clickable: true,
   },
+});
 
+const swiperSpecialOffers = new Swiper('.special-offers-slider', {
+  navigation: {
+    nextEl: '.special-offers__swiper-button-next',
+    prevEl: '.special-offers__swiper-button-prev',
+  },
+  slidesPerView: 'auto',
+  slidesPerGroup: 3,
+  spaceBetween: 32,
 });

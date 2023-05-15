@@ -7,6 +7,14 @@
 .special-offers__item-card {
   padding: 30px;
   min-height: 511px;
+  max-width: 296px;
+}
+
+.special-offers__item-card_big {
+  max-width: 624px;
+  & .item-card__content {
+    margin-right: auto;
+  }
 }
 
 .special-offers__item-card-label {
@@ -27,17 +35,12 @@
 
 }
 
-.special-offers__item-card_big {
-  max-width: 624px;
-  & .item-card__content {
-    margin-right: 130px;
-  }
-}
 
-.special-offers-slider {
-  display: flex;
-  column-gap: 32px;
-}
+
+// .special-offers-slider {
+//   display: flex;
+//   column-gap: 32px;
+// }
 
 .item-card__content-wrapper {
   display: flex;
