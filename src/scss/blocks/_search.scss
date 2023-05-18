@@ -3,8 +3,10 @@
   align-items: center;
   height: 60px;
   max-width: 761px;
-  padding-right: 32px;
-  padding-left: 34px;
+  padding-right: 30px;
+  padding-left: 32px;
+  border: 2px solid $elements-bg;
+  border-radius: 10px 0 0 10px;
   background-color: $elements-bg;
   & svg {
     height: 20px;

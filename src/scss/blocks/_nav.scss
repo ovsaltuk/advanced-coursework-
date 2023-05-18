@@ -1,5 +1,10 @@
 .nav__list {
   display: flex;
-  column-gap: 91px;
+  column-gap: 92px;
+  padding-top: 3px;
+  padding-right: 3px;
   color: $black;
+  & a {
+    font-weight: 400;
+  }
 }

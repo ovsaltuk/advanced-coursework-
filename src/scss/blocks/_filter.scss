@@ -1,7 +1,19 @@
 .filter {
-  padding: 0 32px;
+  border: 2px solid $elements-bg;
+  border-radius: 0 10px 10px 0;
 }
 
-.dropdown__current-value_filter p {
-  margin-right: 143px;
+.filter__current-value {
+  align-items: center;
+  padding: 0 32px;
+  padding-top: 4px;
+  & p {
+    margin-right: 143px;
+  }
+}
+
+.filter__dropdown-list {
+  max-height: 254px;
+  width: 100%;
+  columns: 2;
 }
