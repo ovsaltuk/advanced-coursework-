@@ -11,6 +11,9 @@
 
 .slide__content {
   padding: 80px 0;
+  & .btn {
+    padding: 21px 48px;
+  }
 }
 
 .slide__title {
@@ -21,6 +24,10 @@
   color: $dark-gray;
 }
 
+.swiper-pagination.hero__swiper-pagination {
+  bottom: 17px;
+}
+
 .hero__swiper-pagination .swiper-pagination-bullet {
   width: 14px;
   height: 14px;
@@ -28,4 +35,8 @@
   &:not(:last-child) {
     margin-right: 16px;
   }
+}
+
+.hero__swiper-pagination .swiper-pagination-bullet:not(:last-child){
+  margin-right: 12px;
 }

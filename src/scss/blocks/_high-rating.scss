@@ -17,6 +17,10 @@
   }
 }
 
+.high-rating__item-card-title {
+  margin-bottom: 22px;
+}
+
 .high-rating__products {
   display: grid;
   gap: 32px;
@@ -27,4 +31,5 @@
 .high-rating__btn {
   display: block;
   margin: 0 auto;
+  padding: 20px 34px
 }

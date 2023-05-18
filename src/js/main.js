@@ -12,9 +12,9 @@ new Dropdown('category');
 const heroSwiper = new Swiper('.js-hero__swiper', {
 
   loop: true,
-  autoplay: {
-    delay: 5000,
-  },
+  // autoplay: {
+  //   delay: 5000,
+  // },
 
   pagination: {
     el: '.hero__swiper-pagination',
